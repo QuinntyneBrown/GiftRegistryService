@@ -20,6 +20,12 @@ namespace GiftRegistryService.Data
         DbSet<Subscription> Subscriptions { get; set; }
         DbSet<Product> Products { get; set; }
         DbSet<Guest> Guests { get; set; }
+        DbSet<Event> Events { get; set; }
+        DbSet<Contact> Contacts { get; set; }
+        DbSet<PhotoGallery> PhotoGalleries { get; set; }
+        DbSet<PhotoGallerySlide> PhotoGallerySlides { get; set; }
+        DbSet<ContentBlock> ContentBlocks { get; set; }
+        DbSet<Personality> Personalities { get; set; }
         Task<int> SaveChangesAsync();
     }
 
@@ -43,6 +49,14 @@ namespace GiftRegistryService.Data
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Guest> Guests { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<PhotoGallery> PhotoGalleries { get; set; }
+        public DbSet<PhotoGallerySlide> PhotoGallerySlides { get; set; }
+        public DbSet<ContentBlock> ContentBlocks { get; set; }
+        public DbSet<Menu> Menus { get; set; }
+        public DbSet<MenuItem> MenuItems { get; set; }
+        public DbSet<Personality> Personalities { get; set; }
 
         public override int SaveChanges()
         {

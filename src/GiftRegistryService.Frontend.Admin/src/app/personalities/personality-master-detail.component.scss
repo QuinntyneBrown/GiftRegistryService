@@ -1,0 +1,20 @@
+@import "../../styles/base/_all";
+
+ce-personality-master-detail {
+    display:block;
+	@extend .view-card;
+
+    ce-personality-edit-embed,
+    ce-personality-list-embed {
+        float:left;
+        display:inline-block;
+        position:relative;
+        width:50%;
+    }
+}
+
+ce-personality-master-detail::after {
+    clear:both;
+    display:block;
+    content:" ";
+}

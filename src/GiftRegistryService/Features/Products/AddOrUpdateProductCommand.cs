@@ -40,7 +40,13 @@ namespace GiftRegistryService.Features.Products
                 }
 
                 entity.Name = request.Product.Name;
-                
+
+                entity.ImageUrl = request.Product.ImageUrl;
+
+                entity.Url = request.Product.Url;
+
+                entity.Description = request.Product.Description;
+
                 await _context.SaveChangesAsync();
 
                 return new AddOrUpdateProductResponse();

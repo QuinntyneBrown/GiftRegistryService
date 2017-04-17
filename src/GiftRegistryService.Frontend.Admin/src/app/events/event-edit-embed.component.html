@@ -1,0 +1,47 @@
+<h2></h2>
+<a class="create-event">CREATE EVENT</a>
+
+<ce-tabs>
+    <div class="tab-title">
+        <h3>General</h3>
+    </div>
+    <div class="tab-title">
+        <h3>Location</h3>
+    </div>
+    <div class="tab-title">
+        <h3>Time</h3>
+    </div>
+    <div class="tab-title">
+        <h3>Description</h3>
+    </div>
+    <div class="tab-panel">
+        <h3>Name</h3>
+        <input class="event-name" />
+
+        <h3>Url</h3>
+        <input class="event-url" />
+
+        <h3>Image Url</h3>
+        <ce-digital-asset-url-input class="event-image-url"></ce-digital-asset-url-input>
+    </div>
+    <div class="tab-panel">        
+        <ce-location-edit-embed></ce-location-edit-embed>
+    </div>
+    <div class="tab-panel">
+        <h3>Start</h3>
+        <input class="event-start" />
+
+        <h3>End</h3>
+        <input class="event-end" />
+    </div>
+    <div class="tab-panel">
+        <h3>Abstract</h3>
+        <div class="event-abstract"></div>
+
+        <h3>Description</h3>
+        <div class="event-description"></div>
+    </div>
+</ce-tabs>
+
+<ce-button class="save-button">Save</ce-button>
+<ce-button class="delete-button">Delete</ce-button>

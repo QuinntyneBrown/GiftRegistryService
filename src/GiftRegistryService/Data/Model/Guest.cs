@@ -12,12 +12,16 @@ namespace GiftRegistryService.Data.Model
         
 		[ForeignKey("Tenant")]
         public int? TenantId { get; set; }
-        
-		[Index("NameIndex", IsUnique = false)]
-        [Column(TypeName = "VARCHAR")]        
-		public string Name { get; set; }
-        
-		public DateTime CreatedOn { get; set; }
+
+        [ForeignKey("ContactRef")]
+        public int? ContactRefId { get; set; }
+
+        [ForeignKey("EventRef")]
+        public int? EventRefId { get; set; }
+
+        public bool IsAttending { get; set; }
+
+        public DateTime CreatedOn { get; set; }
         
 		public DateTime LastModifiedOn { get; set; }
         
@@ -28,5 +32,9 @@ namespace GiftRegistryService.Data.Model
 		public bool IsDeleted { get; set; }
 
         public virtual Tenant Tenant { get; set; }
+
+        public virtual EventRef EventRef { get; set; }
+
+        public virtual ContactRef ContactRef { get; set; }
     }
 }

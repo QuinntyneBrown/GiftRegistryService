@@ -6,8 +6,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>
-    </ProductVersion>
+    <ProductVersion></ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{F6286226-21E2-4BEB-B76D-F9E2D650E02A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
@@ -22,8 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
     <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
     <TypeScriptEmitDecoratorMetadata>true</TypeScriptEmitDecoratorMetadata>
     <TypeScriptModuleKind>commonjs</TypeScriptModuleKind>
@@ -243,6 +241,30 @@
     <Content Include="src\app\app.component.scss">
       <DependentUpon>app.component.ts</DependentUpon>
     </Content>
+    <Content Include="src\app\contacts\contact-edit-embed.component.html">
+      <DependentUpon>contact-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\contacts\contact-edit-embed.component.scss">
+      <DependentUpon>contact-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\contacts\contact-item-embed.component.html">
+      <DependentUpon>contact-item-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\contacts\contact-item-embed.component.scss">
+      <DependentUpon>contact-item-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\contacts\contact-list-embed.component.html">
+      <DependentUpon>contact-list-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\contacts\contact-list-embed.component.scss">
+      <DependentUpon>contact-list-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\contacts\contact-master-detail.component.html">
+      <DependentUpon>contact-master-detail.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\contacts\contact-master-detail.component.scss">
+      <DependentUpon>contact-master-detail.component.ts</DependentUpon>
+    </Content>
     <Content Include="src\app\digital-assets\digital-asset-edit-embed.component.html">
       <DependentUpon>digital-asset-edit-embed.component.ts</DependentUpon>
     </Content>
@@ -267,6 +289,10 @@
     <Content Include="src\app\digital-assets\digital-asset-url-input.component.scss">
       <DependentUpon>digital-asset-url-input.component.ts</DependentUpon>
     </Content>
+    <Content Include="src\app\events\event-edit-embed.component.html" />
+    <Content Include="src\app\events\event-item-embed.component.html" />
+    <Content Include="src\app\events\event-list-embed.component.html" />
+    <Content Include="src\app\events\event-master-detail.component.html" />
     <Content Include="src\app\features\feature-edit-embed.component.html">
       <DependentUpon>feature-edit-embed.component.ts</DependentUpon>
     </Content>
@@ -320,6 +346,42 @@
     </Content>
     <Content Include="src\app\guests\guest-master-detail.component.scss">
       <DependentUpon>guest-master-detail.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\locations\location-edit-embed.component.html">
+      <DependentUpon>location-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\locations\location-edit-embed.component.scss">
+      <DependentUpon>location-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\menus\menu-edit-embed.component.html">
+      <DependentUpon>menu-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\menus\menu-edit-embed.component.scss">
+      <DependentUpon>menu-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-edit-embed.component.html">
+      <DependentUpon>personality-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-edit-embed.component.scss">
+      <DependentUpon>personality-edit-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-item-embed.component.html">
+      <DependentUpon>personality-item-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-item-embed.component.scss">
+      <DependentUpon>personality-item-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-list-embed.component.html">
+      <DependentUpon>personality-list-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-list-embed.component.scss">
+      <DependentUpon>personality-list-embed.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-master-detail.component.html">
+      <DependentUpon>personality-master-detail.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\personalities\personality-master-detail.component.scss">
+      <DependentUpon>personality-master-detail.component.ts</DependentUpon>
     </Content>
     <Content Include="src\app\products\product-edit-embed.component.html">
       <DependentUpon>product-edit-embed.component.ts</DependentUpon>
@@ -514,6 +576,20 @@
     <Content Include="src\styles\base\entity-list.scss" />
     <Content Include="src\styles\base\select.scss" />
     <Content Include="src\styles\base\view-card.scss" />
+    <Content Include="src\app\menus\menu-list-embed.component.scss" />
+    <Content Include="src\app\menus\menu-list-embed.component.html" />
+    <Content Include="src\app\menus\menu-item-embed.component.scss" />
+    <Content Include="src\app\menus\menu-item-embed.component.html" />
+    <Content Include="src\app\menus\menu-master-detail.component.scss" />
+    <Content Include="src\app\menus\menu-master-detail.component.html" />
+    <Content Include="src\app\menus\menu-item-edit-embed.component.scss" />
+    <Content Include="src\app\menus\menu-item-edit-embed.component.html" />
+    <Content Include="src\app\menus\menu-item-list-embed.component.scss" />
+    <Content Include="src\app\menus\menu-item-list-embed.component.html" />
+    <Content Include="src\app\menus\menu-item-item-embed.component.scss" />
+    <Content Include="src\app\menus\menu-item-item-embed.component.html" />
+    <Content Include="src\app\menus\menu-item-master-detail.component.scss" />
+    <Content Include="src\app\menus\menu-item-master-detail.component.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
@@ -539,8 +615,7 @@
           <IISUrl>http://localhost:64411/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl></CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
@@ -570,9 +645,21 @@
     <TypeScriptCompile Include="src\app\digital-assets\digital-asset.service.ts" />
     <TypeScriptCompile Include="src\app\digital-assets\index.ts" />
     <TypeScriptCompile Include="src\app\environment.ts" />
+    <TypeScriptCompile Include="src\app\events\event-edit-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\events\event-item-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\events\event-list-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\events\event-location.model.ts" />
+    <TypeScriptCompile Include="src\app\events\event-master-detail.component.ts" />
+    <TypeScriptCompile Include="src\app\events\event.actions.ts" />
+    <TypeScriptCompile Include="src\app\events\event.model.ts" />
+    <TypeScriptCompile Include="src\app\events\event.service.ts" />
+    <TypeScriptCompile Include="src\app\events\index.ts" />
     <TypeScriptCompile Include="src\app\features\current-feature-middleware.ts" />
     <TypeScriptCompile Include="src\app\features\current-feature.service.ts" />
     <TypeScriptCompile Include="src\app\index.ts" />
+    <TypeScriptCompile Include="src\app\locations\index.ts" />
+    <TypeScriptCompile Include="src\app\locations\location-edit-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\locations\location.model.ts" />
     <TypeScriptCompile Include="src\app\pagination\ipaged-list.d.ts" />
     <TypeScriptCompile Include="src\app\pagination\paged-list.model.ts" />
     <TypeScriptCompile Include="src\app\pagination\paginated.component.ts" />
@@ -581,6 +668,14 @@
     <TypeScriptCompile Include="src\app\pagination\to-paged-list.ts" />
     <TypeScriptCompile Include="src\app\pagination\validate-page-properties-and-get-skip-count.ts" />
     <TypeScriptCompile Include="src\app\pagination\index.ts" />
+    <TypeScriptCompile Include="src\app\personalities\index.ts" />
+    <TypeScriptCompile Include="src\app\personalities\personality-edit-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\personalities\personality-item-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\personalities\personality-list-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\personalities\personality-master-detail.component.ts" />
+    <TypeScriptCompile Include="src\app\personalities\personality.actions.ts" />
+    <TypeScriptCompile Include="src\app\personalities\personality.model.ts" />
+    <TypeScriptCompile Include="src\app\personalities\personality.service.ts" />
     <TypeScriptCompile Include="src\app\router\index.ts" />
     <TypeScriptCompile Include="src\app\router\link.component.ts" />
     <TypeScriptCompile Include="src\app\router\route-reload-middleware.ts" />
@@ -717,6 +812,29 @@
     <TypeScriptCompile Include="src\app\products\index.ts" />
     <TypeScriptCompile Include="src\app\products\product.model.ts" />
     <TypeScriptCompile Include="src\app\features\features-overlay.component.ts" />
+    <TypeScriptCompile Include="src\app\contacts\contact-edit-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\contacts\contact-list-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\contacts\contact-item-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\contacts\contact-master-detail.component.ts" />
+    <TypeScriptCompile Include="src\app\contacts\contact.actions.ts" />
+    <TypeScriptCompile Include="src\app\contacts\contact.service.ts" />
+    <TypeScriptCompile Include="src\app\contacts\index.ts" />
+    <TypeScriptCompile Include="src\app\contacts\contact.model.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-edit-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-list-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-master-detail.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu.actions.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu.service.ts" />
+    <TypeScriptCompile Include="src\app\menus\index.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu.model.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item-edit-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item-list-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item-item-embed.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item-master-detail.component.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item.actions.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item.service.ts" />
+    <TypeScriptCompile Include="src\app\menus\menu-item.model.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
@@ -726,6 +844,12 @@
       <Project>{a8711bc3-f343-4e44-b045-349942559795}</Project>
       <Name>GiftRegistryService</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\app\events\event-edit-embed.component.scss" />
+    <Content Include="src\app\events\event-item-embed.component.scss" />
+    <Content Include="src\app\events\event-list-embed.component.scss" />
+    <Content Include="src\app\events\event-master-detail.component.scss" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
 </Project>

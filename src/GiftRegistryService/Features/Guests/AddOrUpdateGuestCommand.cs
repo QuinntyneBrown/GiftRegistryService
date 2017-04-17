@@ -38,8 +38,7 @@ namespace GiftRegistryService.Features.Guests
                     var tenant = await _context.Tenants.SingleAsync(x => x.UniqueId == request.TenantUniqueId);
                     _context.Guests.Add(entity = new Guest() { TenantId = tenant.Id });
                 }
-
-                entity.Name = request.Guest.Name;
+                
                 
                 await _context.SaveChangesAsync();
 

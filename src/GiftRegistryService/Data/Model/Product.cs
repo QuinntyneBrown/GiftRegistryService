@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using GiftRegistryService.Data.Helpers;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -16,8 +15,14 @@ namespace GiftRegistryService.Data.Model
 		[Index("NameIndex", IsUnique = false)]
         [Column(TypeName = "VARCHAR")]        
 		public string Name { get; set; }
-        
-		public DateTime CreatedOn { get; set; }
+
+        public string Url { get; set; }
+
+        public string ImageUrl { get; set; }
+
+        public string Description { get; set; }
+
+        public DateTime CreatedOn { get; set; }
         
 		public DateTime LastModifiedOn { get; set; }
         

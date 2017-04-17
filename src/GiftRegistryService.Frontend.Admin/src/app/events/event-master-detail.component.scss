@@ -1,0 +1,28 @@
+@import "../../styles/base/_all";
+
+ce-event-master-detail {
+    display:block;
+	@extend .view-card;
+
+    ce-event-edit-embed,
+    ce-event-list-embed {
+        float:left;
+        display:inline-block;
+        position:relative;
+        width:calc(50% - 10px);
+    }
+
+    ce-event-edit-embed {
+        margin-right:10px;
+    }
+
+    ce-event-list-embed {
+        margin-left:10px;
+    }
+}
+
+ce-event-master-detail::after {
+    clear:both;
+    display:block;
+    content:" ";
+}

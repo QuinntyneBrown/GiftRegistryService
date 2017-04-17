@@ -61,7 +61,7 @@ export class SubscriptionEditEmbedComponent extends HTMLElement {
             this._nameInputElement.value = this.subscription.name;  
             this._accountSelectElement.selectedIndex = this.subscription.accountId;
             this._featureSelectElement.selectedIndex = this.subscription.featureId;
-            this._createButtonElement.nodeValue =
+            //this._createButtonElement.nodeValue =
         } else {
             this._deleteButtonElement.style.display = "none";
         }     

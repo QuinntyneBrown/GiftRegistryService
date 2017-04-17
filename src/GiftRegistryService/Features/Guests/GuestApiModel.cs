@@ -6,7 +6,6 @@ namespace GiftRegistryService.Features.Guests
     {        
         public int Id { get; set; }
         public int? TenantId { get; set; }
-        public string Name { get; set; }
 
         public static TModel FromGuest<TModel>(Guest guest) where
             TModel : GuestApiModel, new()
@@ -14,7 +13,6 @@ namespace GiftRegistryService.Features.Guests
             var model = new TModel();
             model.Id = guest.Id;
             model.TenantId = guest.TenantId;
-            model.Name = guest.Name;
             return model;
         }
 

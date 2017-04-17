@@ -11,6 +11,8 @@ export class AppRouterOutletComponent extends RouterOutlet {
             { path: "/", name: "product-master-detail", authRequired: true },
             { path: "/products", name: "product-master-detail", authRequired: true },
             { path: "/guests", name: "guest-master-detail", authRequired: true },
+            { path: "/contacts", name: "contact-master-detail", authRequired: true },
+            { path: "/events", name: "event-master-detail", authRequired: true },
             { path: "/login", name: "login" },
             { path: "/error", name: "error" },
             { path: "*", name: "not-found" }
