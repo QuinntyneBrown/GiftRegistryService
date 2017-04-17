@@ -1,0 +1,20 @@
+@import "../../styles/base/_all";
+
+ce-product-master-detail {
+    display:block;
+	@extend .view-card;
+
+    ce-product-edit-embed,
+    ce-product-list-embed {
+        float:left;
+        display:inline-block;
+        position:relative;
+        width:50%;
+    }
+}
+
+ce-product-master-detail::after {
+    clear:both;
+    display:block;
+    content:" ";
+}
